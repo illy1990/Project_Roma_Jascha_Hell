@@ -1,1 +1,47 @@
-h1 {color:pink}
+@import url('https://fonts.googleapis.com/css?family=Mr+Dafoe|Roboto&display=swap');
+
+@font-face {
+    font-family: 'Santio Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Santio Bold'), url('/assets/css/Santio\ Bold.woff') format('woff');
+    }
+
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Mr Dafoe', cursive;
+font-family: 'Santio Bold', normal, normal;
+Farbe: #e7bc0e  / #efefef / #6bc1a3 / #cb91b6 / #7eb8e1 / #000 / #fff */
+
+
+/* BODY - GENERELLE REGELN */
+
+/* HEADER_MAIN - GENERELLE REGELN */
+#Backgroundpicture_Divider{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://drive.google.com/thumbnail?id=1NBos8hcF6lcmgw19KFmydzhrc1hf-scA&authuser=0&sz=w1920-h929');
+    background-repeat: no-repeat;
+    background-position: cover;
+}
+
+/* HEADER - CSS CODE */
+#Header_UL{
+    display: inline-block;
+    list-style: none;
+    position: absolute;
+    right: 100px;
+
+}
+
+#Header_UL li a{
+    color:white;
+    text-decoration: none;
+} 
+
+#Header_UL li a:hover{
+    text-decoration:underline;
+    text-decoration-color: #e7bc0e;
+} 
