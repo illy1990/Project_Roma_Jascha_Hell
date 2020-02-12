@@ -4,7 +4,7 @@
     font-family: 'Santio Bold';
     font-style: normal;
     font-weight: normal;
-    src: local('Santio Bold'), url('/assets/css/Santio\ Bold.woff') format('woff');
+    src: local('Santio Bold'), url('assets/css/Santio\ Bold.woff') format('woff');
     }
 
 /* font-family: 'Roboto', sans-serif;
@@ -20,22 +20,16 @@ body{
     padding: 0;
 }
 
-html{
-    margin: 0;
-    padding: 0;
-}
-
 /* HEADER_MAIN - GENERELLE REGELN */
-#Backgroundpicture_Divider{
-    height: 100vh;
-    width: 100%;
+body{
     margin: 0;
     padding: 0;
     background-image: url('https://drive.google.com/thumbnail?id=1NBos8hcF6lcmgw19KFmydzhrc1hf-scA&authuser=0&sz=w1920-h929');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    top:0;
+    height: 100vh;
+    width: 100%;
 }
 
 /* HEADER - CSS CODE */
@@ -54,7 +48,7 @@ html{
 #Header_UL li a:hover{
     text-decoration:underline;
     text-decoration-color: #e7bc0e;
-} 
+}
 
 #main{
     height: 400vh;
@@ -62,14 +56,36 @@ html{
 }
 
 #Main-Article-1-h1-1, #Main-Article-2-h1-1, #Main-Article-3-h1-1, #Main-Article-4-h1-1{
-    display: inline-block;
     margin: 0;
     padding: 0;
+    display: inline-block;
+    background: #333;
 }
 
-#Main-Article-1, #Main-Article-2, #Main-Article-3, #Main-Article-4 {
+#Main-Article-1{
     width:100%;
     height: 100vh;
-    background-image: url(/assets/img/Background_No_Color_Empty.png);
-    background-size: cover;
+    position: absolute;
+    top: 150vh;
+}
+
+#Main-Article-2{
+    width:100%;
+    height: 100vh;
+    position: absolute;
+    top: 250vh;
+}
+
+#Main-Article-3{
+    width:100%;
+    height: 100vh;
+    position: absolute;
+    top: 350vh;
+}
+
+#Main-Article-4 {
+    width:100%;
+    height: 100vh;
+    position: absolute;
+    top: 450vh;
 }
