@@ -14,17 +14,28 @@ Farbe: #e7bc0e  / #efefef / #6bc1a3 / #cb91b6 / #7eb8e1 / #000 / #fff */
 
 
 /* BODY - GENERELLE REGELN */
+body{
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    margin: 0;
+    padding: 0;
+}
 
 /* HEADER_MAIN - GENERELLE REGELN */
 #Backgroundpicture_Divider{
     height: 100vh;
     width: 100%;
-    position: relative;
     margin: 0;
     padding: 0;
     background-image: url('https://drive.google.com/thumbnail?id=1NBos8hcF6lcmgw19KFmydzhrc1hf-scA&authuser=0&sz=w1920-h929');
     background-repeat: no-repeat;
-    background-position: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    top:0;
 }
 
 /* HEADER - CSS CODE */
@@ -33,7 +44,6 @@ Farbe: #e7bc0e  / #efefef / #6bc1a3 / #cb91b6 / #7eb8e1 / #000 / #fff */
     list-style: none;
     position: absolute;
     right: 100px;
-
 }
 
 #Header_UL li a{
@@ -45,3 +55,21 @@ Farbe: #e7bc0e  / #efefef / #6bc1a3 / #cb91b6 / #7eb8e1 / #000 / #fff */
     text-decoration:underline;
     text-decoration-color: #e7bc0e;
 } 
+
+#main{
+    height: 400vh;
+    width: 100%;
+}
+
+#Main-Article-1-h1-1, #Main-Article-2-h1-1, #Main-Article-3-h1-1, #Main-Article-4-h1-1{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+#Main-Article-1, #Main-Article-2, #Main-Article-3, #Main-Article-4 {
+    width:100%;
+    height: 100vh;
+    background-image: url(/assets/img/Background_No_Color_Empty.png);
+    background-size: cover;
+}
