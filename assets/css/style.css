@@ -7,18 +7,12 @@
     src: local('Santio Bold'), url('assets/css/Santio\ Bold.woff') format('woff');
     }
 
+/*{margin:0;padding: 0;}
+
 /* font-family: 'Roboto', sans-serif;
 font-family: 'Mr Dafoe', cursive;
 font-family: 'Santio Bold', normal, normal;
 Farbe: #e7bc0e  / #efefef / #6bc1a3 / #cb91b6 / #7eb8e1 / #000 / #fff */
-
-
-/* BODY - GENERELLE REGELN */
-body{
-    font-size: 25px;
-    margin: 0;
-    padding: 0;
-}
 
 /* HEADER_MAIN - GENERELLE REGELN */
 body{
@@ -30,6 +24,7 @@ body{
     background-attachment: fixed;
     height: 100vh;
     width: 100%;
+    font-size: 25px;
 }
 
 .font_white_back_black{
@@ -348,3 +343,4 @@ body{
     text-decoration:underline;
     text-decoration-color: #6bc1a3;
 }
+
