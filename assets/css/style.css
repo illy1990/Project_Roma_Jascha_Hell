@@ -246,7 +246,7 @@ body{
     background-color: #efefef;
     display: inline-block;    
     width: 100%;
-    height: 150vh;
+    height: 125vh;
     position: absolute;
     top: 825vh;
     margin: 0;
@@ -268,4 +268,76 @@ body{
     width: 100%;
     position: absolute;
     z-index: 2;
+}
+
+/* Schwarzer Block mit Text Boden */
+#Schwarzer_Block{
+    background-color: #000;
+    display: inline-block;    
+    width: 100%;
+    height: 200vh;
+    position: absolute;
+    top: 950vh;
+    margin: 0;
+    padding: 0;
+}
+
+#Schwarzer_Block_h1{
+    margin-left: 7%;
+    padding: 0;
+    color: white;
+    font-size: 125px;
+    position: absolute;
+    top:75vh;
+}
+
+#Schwarzer_Block_p_Border{
+    margin-left: 7%;
+    position: absolute;
+    top: 175vh;
+    
+}
+
+#Schwarzer_Block_a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    border: 1px solid white;
+    font-size: 45px;
+}
+
+/* Hover_effekt_Button_Schwarzer_block_a */
+#Schwarzer_Block_a:hover{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    border: 1px solid white;
+    font-size: 45px;
+    box-shadow: 10px 10px 5px 5px white;
+}
+
+/* FOOTER */
+#Footer_Schwarzer_Block{
+    background-color: #000;
+    display: inline-block;    
+    width: 100%;
+    height: 25vh;
+    position: absolute;
+    top: 1150vh;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#Footer_Schwarzer_Block_h1{
+    display: block;
+    margin-top: 175px;
+    position: absolute;
+    left: 35%;
+    color: white;
+    font-size: 25px;
+}
+
+#Last_Word_page{
+    color: #6bc1a3;
 }
