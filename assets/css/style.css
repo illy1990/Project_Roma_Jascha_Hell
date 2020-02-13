@@ -32,6 +32,11 @@ body{
     width: 100%;
 }
 
+.font_white_back_black{
+    color: #efefef;
+    background-color:#000;
+}
+
 /* HEADER - CSS CODE */
 #Header_UL{
     display: inline-block;
@@ -55,37 +60,165 @@ body{
     width: 100%;
 }
 
-#Main-Article-1-h1-1, #Main-Article-2-h1-1, #Main-Article-3-h1-1, #Main-Article-4-h1-1{
+#Main-Article-1{
+    width:27%;
+    height: 100vh;
+    position: absolute;
+    top: 47vh;
+    color: white;
+    margin-left:6%;
+    font-size: 70px;
+    font-family: 'Santio Bold';
+}
+
+#Main-Article-1-h1-1{
     margin: 0;
     padding: 0;
     display: inline-block;
-    background: #333;
-}
-
-#Main-Article-1{
-    width:100%;
-    height: 100vh;
-    position: absolute;
-    top: 150vh;
 }
 
 #Main-Article-2{
-    width:100%;
+    width:27%;
     height: 100vh;
     position: absolute;
-    top: 250vh;
+    top: 110vh;
+    color:#e7bc0e;
+    margin-left: 6%;
+    font-size: 40px;
+    font-family: 'Mr Dafoe', cursive;
 }
+
+/* #Main-Article-2-h1-1{} */
+
 
 #Main-Article-3{
-    width:100%;
+    width:75%;
     height: 100vh;
     position: absolute;
-    top: 350vh;
+    top: 150vh;
+    color: #6bc1a3;
+    margin-left: 15%;
+    font-size: 50px;
+    font-family: 'Santio Bold';
 }
 
-#Main-Article-4 {
-    width:100%;
+#Main-Article-3-h1-1{
+    display: inline-block;
+    line-height: 100px;
+}
+
+/* Elemente mit Bild in Headline und text drunter */
+/*To the workers*/
+
+#Main-Article-4{
+    width:70%;
     height: 100vh;
     position: absolute;
-    top: 450vh;
+    top: 300vh;
+    margin-left:10%;
+}
+
+#Main-Article-4-img-1{
+    width:300px;
+}
+
+#Main-Article-4-h1-1{
+    font-size: 220px;
+    color:#e7bc0e;
+    display: inline-block;
+    line-height: 220px;
+    margin: 0;
+    margin-top: 75px;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+#Main-Article-4-h2-1{
+    font-size: 65px;
+    color:#e7bc0e;
+    display: inline-block;
+    line-height: 65px;
+    margin: 0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0px;
+    width:110%;
+    text-transform: uppercase;
+}
+
+/*To the payday*/
+#Main-Article-5{
+    width:70%;
+    height: 100vh;
+    position: absolute;
+    top: 425vh;
+    margin-left:10%;
+}
+
+#Main-Article-5-img-1{
+    width:300px;
+}
+
+#Main-Article-5-h1-1{
+    font-size: 220px;
+    color:#cb91b6;
+    display: inline-block;
+    line-height: 220px;
+    margin: 0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+#Main-Article-5-h2-1{
+    font-size: 65px;
+    color:#cb91b6;
+    display: inline-block;
+    line-height: 65px;
+    margin: 0;
+    margin-top: 75px;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0px;
+    width:110%;
+    text-transform: uppercase;
+}
+
+/*To the healthsystem*/
+#Main-Article-6{
+    width:70%;
+    height: 100vh;
+    position: absolute;
+    top: 550vh;
+    margin-left:10%;
+}
+
+#Main-Article-6-img-1{
+    width:300px;
+}
+
+#Main-Article-6-h1-1{
+    font-size: 220px;
+    color:#6bc1a3;
+    display: inline-block;
+    line-height: 220px;
+    margin: 0;
+    margin-top: 75px;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+#Main-Article-6-h2-1{
+    font-size: 65px;
+    color:#6bc1a3;
+    display: inline-block;
+    line-height: 65px;
+    margin: 0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0px;
+    width:110%;
+    text-transform: uppercase;
 }
