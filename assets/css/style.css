@@ -341,3 +341,10 @@ body{
 #Last_Word_page{
     color: #6bc1a3;
 }
+
+
+/* Hover_effekt_Last word page */
+#Last_Word_page:hover{
+    text-decoration:underline;
+    text-decoration-color: #6bc1a3;
+}
